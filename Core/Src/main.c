@@ -129,7 +129,7 @@ int main(void) {
 //			OLED_DrawCircle(64, 32, i, OLED_COLOR_NORMAL);
 //			OLED_DrawCircle(64, 32, 2*i, OLED_COLOR_NORMAL);
 //			OLED_DrawCircle(64, 32, 3*i, OLED_COLOR_NORMAL);
-//			OLED_PrintString(64-2*i, 10, "撒比麻园test9257", &font16x16, OLED_COLOR_NORMAL);
+//			OLED_PrintString(64-2*i, 10, "test9257", &font16x16, OLED_COLOR_NORMAL);
 //			OLED_ShowFrame();
 //		}
 		/* USER CODE END WHILE */
