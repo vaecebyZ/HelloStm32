@@ -7,26 +7,26 @@
 #include "main.h"
 
 void startTTLLight(){
-	  HAL_GPIO_WritePin(GPIOA, R_Pin, ENABLE);
+	  HAL_GPIO_WritePin(GPIOB, R_Pin, ENABLE);
 	  HAL_Delay(500);
-	  HAL_GPIO_WritePin(GPIOA, G_Pin, ENABLE);
+	  HAL_GPIO_WritePin(GPIOB, G_Pin, ENABLE);
 	  HAL_Delay(500);
-	  HAL_GPIO_WritePin(GPIOA, B_Pin, ENABLE);
+	  HAL_GPIO_WritePin(GPIOB, B_Pin, ENABLE);
 	  HAL_Delay(500);
-	  HAL_GPIO_WritePin(GPIOA, R_Pin, RESET);
-	  HAL_GPIO_WritePin(GPIOA, G_Pin, RESET);
-	  HAL_GPIO_WritePin(GPIOA, B_Pin, RESET);
+	  HAL_GPIO_WritePin(GPIOB, R_Pin, RESET);
+	  HAL_GPIO_WritePin(GPIOB, G_Pin, RESET);
+	  HAL_GPIO_WritePin(GPIOB, B_Pin, RESET);
 	  HAL_Delay(200);
-	  HAL_GPIO_WritePin(GPIOA, R_Pin, ENABLE);
+	  HAL_GPIO_WritePin(GPIOB, R_Pin, ENABLE);
 	  HAL_Delay(200);
-	  HAL_GPIO_WritePin(GPIOA, R_Pin, RESET);
+	  HAL_GPIO_WritePin(GPIOB, R_Pin, RESET);
 	  HAL_Delay(200);
-	  HAL_GPIO_WritePin(GPIOA, G_Pin, ENABLE);
+	  HAL_GPIO_WritePin(GPIOB, G_Pin, ENABLE);
 	  HAL_Delay(200);
-	  HAL_GPIO_WritePin(GPIOA, G_Pin, RESET);
+	  HAL_GPIO_WritePin(GPIOB, G_Pin, RESET);
 	  HAL_Delay(200);
-	  HAL_GPIO_WritePin(GPIOA, B_Pin, ENABLE);
+	  HAL_GPIO_WritePin(GPIOB, B_Pin, ENABLE);
 	  HAL_Delay(200);
- 	  HAL_GPIO_WritePin(GPIOA, B_Pin, RESET);
+ 	  HAL_GPIO_WritePin(GPIOB, B_Pin, RESET);
 
 }
